@@ -16,7 +16,7 @@ export const About = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-6xl font-bold mb-4 glow-text">About Me</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A developer passionate about creating exceptional digital experiences
+            An enthusiastic student exploring the intersection of Web3, Data, and Business
           </p>
         </div>
 
@@ -25,13 +25,15 @@ export const About = () => {
           <Card className="p-8 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in">
             <h3 className="text-2xl font-bold mb-4 text-primary">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              I've been crafting digital experiences for over 5 years, working with startups 
-              and established companies to bring their visions to life. My expertise spans 
-              from traditional web development to cutting-edge Web3 applications.
+              As a second-year student, I am currently building a strong foundation 
+              in computer science. My primary focus is a deep dive into the 
+              fascinating world of <b>Blockchain</b> and <b>Web3</b>, all while continuously 
+              honing my modern web development skills.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I believe in clean code, beautiful design, and creating solutions that not only 
-              look stunning but also deliver real value to users.
+              Beyond coding, I have a strong interest in <b>Business strategy</b> and 
+              <b> Data Analysis</b>. I believe the best technological solutions are not only 
+              technically elegant but also strategically smart and data-informed.
             </p>
           </Card>
 

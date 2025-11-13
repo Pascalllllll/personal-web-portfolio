@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# 🚀 Hosea's Personal Portfolio
 
-## Project info
+> **A modern, interactive, and 3D-enhanced personal portfolio website built with React, Tailwind CSS, and Three.js.**
 
-**URL**: https://lovable.dev/projects/5ada8f03-6596-4665-8b15-3c74879a0bd9
+![Preview Screenshot](preview.png)
 
-## How can I edit this code?
+## ✨ Overview
 
-There are several ways of editing your application.
+This is my **personal portfolio website**, built to showcase my profile, skills, and projects through an elegant and immersive interface.  
+The site features a **3D animated background**, **sparkle effects**, and **smooth theme transitions**, combining aesthetics with technical depth.
 
-**Use Lovable**
+Developed with **React**, powered by **React Three Fiber** for 3D rendering, and styled using **Tailwind CSS** for clean, responsive design.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ada8f03-6596-4665-8b15-3c74879a0bd9) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧠 Features
 
-**Use your preferred IDE**
+### 🪩 3D Particle Background  
+A real-time, shader-based fluid animation built with **Three.js GLSL shaders**.  
+Colors dynamically adapt to the active theme (light/dark), and the movement subtly reacts to mouse position.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### ✨ Sparkle Click Effect  
+Each mouse click triggers a burst of glowing particles radiating in random directions — a modern, delightful touch that adds energy to the interface.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🌙 Theme Switching  
+Supports light and dark modes with a **smooth circular reveal animation**.  
+All theme colors are defined using **HSL variables** for easier fine-tuning and global palette control.
 
-Follow these steps:
+### 💫 Smooth Scrolling & Glow Effects  
+Sections and typography are styled with soft shadows and gentle transitions, creating a polished and cohesive experience.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧩 Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Layer | Technology |
+|-------|-------------|
+| **Framework** | React (TypeScript) |
+| **3D Engine** | Three.js + React Three Fiber |
+| **Styling** | Tailwind CSS + CSS Variables |
+| **Shaders** | GLSL (Custom Vertex & Fragment) |
+| **UI Components** | Shadcn/UI |
+| **Animations** | Framer Motion |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/<your-portfolio-repo>.git
+cd <your-portfolio-repo>
+2️⃣ Install Dependencies
+bash
+Salin kode
+npm install
+# or
+yarn install
+3️⃣ Run Development Server
+bash
+Salin kode
 npm run dev
-```
+Then open http://localhost:5173 in your browser.
 
-**Edit a file directly in GitHub**
+🧱 Project Structure
+python
+Salin kode
+src/
+├── components/
+│   ├── Hero.tsx             # Introduction section
+│   ├── About.tsx            # About me
+│   ├── Projects.tsx         # Portfolio showcase
+│   ├── Contact.tsx          # Contact section
+│   ├── ParticleBackground.tsx  # 3D animated background
+│   └── ThemeToggle.tsx      # Dark/light mode toggle
+├── assets/
+│   ├── portrait.jpg
+│   └── icons/
+├── styles/
+│   └── globals.css          # Tailwind + custom variables
+├── App.tsx
+└── main.tsx
+🎨 Theming System
+Light and dark themes are toggled by the html.dark class.
+All colors are defined in HSL format within globals.css for flexible adjustments:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+css
+Salin kode
+--background: 45 20% 96%;
+--primary: 45 80% 50%;
+--accent: 270 70% 60%;
+You can easily customize these values to match your personal brand.
 
-**Use GitHub Codespaces**
+🌐 Deployment
+You can deploy this portfolio effortlessly using one of the following:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Vercel – seamless deployment for React + Tailwind projects
 
-## What technologies are used for this project?
+Netlify or Cloudflare Pages – easy static hosting
 
-This project is built with:
+GitHub Pages – manual deployment:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+bash
+Salin kode
+npm run build
+npm run deploy
+👨‍💻 Author
+Hosea Felix Sanjaya
+🌍 Blockchain Developer & Creative Coder
+💼 LinkedIn
+💻 GitHub
+📫 hosea@example.com
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5ada8f03-6596-4665-8b15-3c74879a0bd9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🪶 License
+This project is licensed under the MIT License.
+You’re free to use, modify, and share with proper attribution.

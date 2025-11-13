@@ -24,12 +24,12 @@ export const Contact = () => {
           <div className="space-y-6 animate-fade-in">
             <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20">
               <h3 className="text-xl font-bold mb-2 text-primary">Email</h3>
-              <p className="text-muted-foreground">your.email@example.com</p>
+              <p className="text-muted-foreground">hoseeee777@gmail.com</p>
             </Card>
             
             <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20">
               <h3 className="text-xl font-bold mb-2 text-primary">Location</h3>
-              <p className="text-muted-foreground">San Francisco, CA</p>
+              <p className="text-muted-foreground">Kediri, Indonesia</p>
             </Card>
             
             <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20">
@@ -42,7 +42,7 @@ export const Contact = () => {
                   LinkedIn
                 </a>
                 <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                  Twitter
+                  Instagram
                 </a>
               </div>
             </Card>

@@ -91,6 +91,11 @@ export default {
         "float": "float 3s ease-in-out infinite",
       },
     },
-  },
-  plugins: [require("tailwindcss-animate")],
+},
+  plugins: [
+    // @ts-ignore
+    require("tailwindcss-animate"),
+    // @ts-ignore
+    require('tailwind-scrollbar') // 💡 TAMBAHKAN DI SINI
+  ],
 } satisfies Config;
