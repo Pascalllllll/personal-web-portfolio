@@ -2,7 +2,7 @@
 
 > **A modern, interactive, and 3D-enhanced personal portfolio website built with React, Tailwind CSS, and Three.js.**
 
-![Preview Screenshot](preview.png)
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/88b95975-1f8f-49bb-b3bf-1a8e70c93a0f" />
 
 ## ✨ Overview
 
@@ -15,18 +15,18 @@ Developed with **React**, powered by **React Three Fiber** for 3D rendering, and
 
 ## 🧠 Features
 
-### 🪩 3D Particle Background  
+### 3D Particle Background  
 A real-time, shader-based fluid animation built with **Three.js GLSL shaders**.  
 Colors dynamically adapt to the active theme (light/dark), and the movement subtly reacts to mouse position.
 
-### ✨ Sparkle Click Effect  
+### Sparkle Click Effect  
 Each mouse click triggers a burst of glowing particles radiating in random directions — a modern, delightful touch that adds energy to the interface.
 
-### 🌙 Theme Switching  
+### Theme Switching  
 Supports light and dark modes with a **smooth circular reveal animation**.  
 All theme colors are defined using **HSL variables** for easier fine-tuning and global palette control.
 
-### 💫 Smooth Scrolling & Glow Effects  
+### Smooth Scrolling & Glow Effects  
 Sections and typography are styled with soft shadows and gentle transitions, creating a polished and cohesive experience.
 
 ---
@@ -50,21 +50,23 @@ Sections and typography are styled with soft shadows and gentle transitions, cre
 ```bash
 git clone https://github.com/<your-username>/<your-portfolio-repo>.git
 cd <your-portfolio-repo>
-2️⃣ Install Dependencies
-bash
-Salin kode
-npm install
-# or
-yarn install
-3️⃣ Run Development Server
-bash
-Salin kode
-npm run dev
-Then open http://localhost:5173 in your browser.
+```
 
-🧱 Project Structure
-python
-Salin kode
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 3️⃣ Run Development Server
+```bash
+npm run dev
+```
+Then open http://localhost:8080 in your browser.
+
+---
+
+### 🧱 Project Structure
+```python
 src/
 ├── components/
 │   ├── Hero.tsx             # Introduction section
@@ -80,18 +82,24 @@ src/
 │   └── globals.css          # Tailwind + custom variables
 ├── App.tsx
 └── main.tsx
-🎨 Theming System
+```
+
+---
+
+### 🎨 Theming System
 Light and dark themes are toggled by the html.dark class.
 All colors are defined in HSL format within globals.css for flexible adjustments:
 
-css
-Salin kode
+```css
 --background: 45 20% 96%;
 --primary: 45 80% 50%;
 --accent: 270 70% 60%;
+```
 You can easily customize these values to match your personal brand.
 
-🌐 Deployment
+---
+
+### 🌐 Deployment
 You can deploy this portfolio effortlessly using one of the following:
 
 Vercel – seamless deployment for React + Tailwind projects
@@ -100,17 +108,13 @@ Netlify or Cloudflare Pages – easy static hosting
 
 GitHub Pages – manual deployment:
 
-bash
-Salin kode
+```bash
 npm run build
 npm run deploy
-👨‍💻 Author
-Hosea Felix Sanjaya
-🌍 Blockchain Developer & Creative Coder
-💼 LinkedIn
-💻 GitHub
-📫 hosea@example.com
+```
 
-🪶 License
-This project is licensed under the MIT License.
+---
+
+Author : Hosea Felix Sanjaya
+
 You’re free to use, modify, and share with proper attribution.
